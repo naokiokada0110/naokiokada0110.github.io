@@ -1,0 +1,71 @@
+body {
+  background-color: #EEEEEE;
+}
+
+header {
+  margin: 0px 240px;
+}
+
+/* ツイッター、インスタ画像 */
+.twitter img, .instagram img {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+}
+
+/* ツイッタータグとインスタタグ */
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 200px;
+  margin-left: auto;
+}
+
+.main {
+  margin: 0px 240px;
+}
+
+/* プロフィール関係 */
+.prof_info {
+  display: flex;
+}
+
+/* プロフ画像 */
+.img_face img {
+  height: 225px;
+  width: auto;
+  border-radius: 20px;
+}
+
+/* プロフィール項目 */
+dl {
+  margin-left: 100px;
+}
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+dd {
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+/* アプリケーション */
+.photo img {
+  height: 250px;
+  width: auto;
+}
+
+.app_info {
+  text-align: center;
+}
+
+.text {
+  width: 450px;
+  margin: auto;
+}

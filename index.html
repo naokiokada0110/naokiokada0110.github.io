@@ -4,52 +4,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <header>
-    <h1 class="title">naoki okada</h1>
+    <h1 class="title">Naoki Okada</h1>
+    <!-- ナビ -->
     <ul>
+      <!-- ツイッタータグ -->
       <li>
-        <a href="https://twitter.com/NaokiOkada110">Twitter</a>
+        <a href="https://twitter.com/NaokiOkada110" class="twitter">
+          <img src="image/twitter.png" alt="twitter">
+        </a>
       </li>
+      <!-- インスタタグ -->
       <li>
-        <a href="https://www.instagram.com/okd.fit/">Instagram</a>
+        <a href="https://www.instagram.com/okd.fit/" class="instagram">
+          <img src="image/instagram.png" alt="instagram">
+        </a>
       </li>
     </ul>
   </header>
+
   <div class="main">
     <!-- 画像 -->
     <div></div>
     <div class="profile">
       <h2 class="sec_title">Profile</h2>
-      <div>
-        <!-- 顔写真 -->
-        <p></p>
-        <dl>
-          <dt>Name</dt>
-          <dd>岡田　直樹</dd>
-          <dt>Address</dt>
-          <dd>....@....</dd>
-          <dt>Twitter</dt>
-          <dd>@NaokiOkada110</dd>
-          <dt>Instagram</dt>
-          <dd>okd.fit</dd>
-        </dl>
-        <p class="textbox"></p>
+      <div class="info">
+        <div class="prof_info">
+          <!-- 顔写真 -->
+          <p class="img_face">
+            <img src="file:///Users/okadanaoki/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/ECFC3911-B7F3-4017-BC5A-BD13A9474173/IMG_1392.jpeg" alt>
+          </p>
+          <dl>
+            <dt>Name</dt>
+            <dd>岡田　直樹(naoki okada)</dd>
+            <dt>Skill</dt>
+            <dd>HTML/CSS/Ruby/Ruby on Rails/JavaScript/GitHub</dd>
+            <dt>Address</dt>
+            <dd>....@....</dd>
+            <dt>Twitter</dt>
+            <dd>@NaokiOkada110</dd>
+            <dt>Instagram</dt>
+            <dd>okd.fit</dd>
+          </dl>
+        </div>
+        <p class="textbox">
+          岐阜県中津川市出身
+          <br>
+          1990年1月10日生まれ　山羊座
+          <br>
+          好奇心旺盛で、気になったことにはどんどん挑戦していくタイプ。
+          <br>
+          趣味はトレーニング。ジムには週5〜6回通っている。
+          <br>
+          2012年に理学療法士となり、医療の現場を8年間経験。電子カルテが主流になっていき、プログラミングに興味を持つ。
+          2020年7月にプログラミングスクールである『TECH CAMP』に入学。同年9月卒業。
+        </p>
       </div>
     </div>
+
+    <!-- 自己アプリ一覧 -->
     <div class="app">
       <h2 class="sec_title">Application</h2>
-      <!-- 画像（アプリ） -->
-      <p class="photo"></p>
-      <p class="article"></p>
-      <a href="https://pfc-search.herokuapp.com/">PFCSearch</a>
+      <div class="app_info">
+        <!-- 画像（アプリ） -->
+        <p class="photo">
+          <img src="image/PFC.png" alt="PFCSearch">
+        </p>
+        <p class="text">
+          "食材のPFCバランスを登録、検索するツール。トレーニングにおいてPFCバランスは無視できない。食材100g辺りのPFCを簡単に検索できます。"
+        </p>
+        <a href="https://pfc-search.herokuapp.com/">PFCSearch</a>
+      </div>
     </div>
+
+    <!-- 問合せ -->
     <div class="contact">
       <h2 class="thi_title">Contact</h2>
       <p class="text"></p>
     </div>
   </div>
+
   <footer>
     <ul>
       <li>
