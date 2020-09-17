@@ -1,9 +1,30 @@
 body {
   background-color: #EEEEEE;
 }
+/* 共通 */
+h1,h2,dt,dd,.textbox,.text,.contact_text,button,.main_photo {
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
 
+.profile, .app, .contact {
+  margin: 0px 240px;
+  background-color: white;
+}
+
+.sec_title {
+  margin: 0px 0px 0px 20px;
+  font-size: 35px;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+/* ヘッダー */
 header {
   margin: 0px 240px;
+}
+
+.title {
+  font-size: 50px;
+  margin: 15px 0 10px 0;
 }
 
 /* ツイッター、インスタ画像 */
@@ -24,7 +45,26 @@ ul {
 }
 
 .main {
-  margin: 0px 240px;
+  margin: 0px;
+}
+
+.main_photo {
+  position: relative;
+}
+
+.main_photo img{
+  width: 100%;
+  height: 600px;
+}
+
+.main_photo p {
+  position: absolute;
+  margin: 0;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  top: 75%;
+  left: 60%;
 }
 
 /* プロフィール関係 */
@@ -37,6 +77,7 @@ ul {
   height: 225px;
   width: auto;
   border-radius: 20px;
+  margin-left: 20px;
 }
 
 /* プロフィール項目 */
@@ -55,6 +96,13 @@ dd {
   text-decoration-color: grey;
 }
 
+.textbox {
+  line-height: 2;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin: 0px 20px 0px 20px;
+}
+
 /* アプリケーション */
 .photo img {
   height: 250px;
@@ -68,17 +116,30 @@ dd {
 .text {
   width: 450px;
   margin: 10px auto;
+  line-height: 1.7;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 /* お問い合わせフォーム */
 .contact_text {
   width: 450px;
   margin: 10px auto;
+  text-align: center;
   text-decoration: underline;
   text-decoration-color: grey;
 }
 
 /* フッター関連 */
+footer {
+  background-color: white;
+  margin: 0 240px;
+}
+
 .sns {
   margin: auto;
   padding: 5px;
