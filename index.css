@@ -70,6 +70,14 @@ dd {
   margin: 10px auto;
 }
 
+/* お問い合わせフォーム */
+.contact_text {
+  width: 450px;
+  margin: 10px auto;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
 /* フッター関連 */
 .sns {
   margin: auto;
