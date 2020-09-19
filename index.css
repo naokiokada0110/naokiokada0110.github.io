@@ -123,6 +123,7 @@ button {
   background-color: white;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* お問い合わせフォーム */
