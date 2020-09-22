@@ -53,10 +53,9 @@ $(function(){
     duration:2000,
     viewFactor: 0.2, 
   });
-  
-  ScrollReveal().reveal('iframe',{
-    duration:2500,
+
+  ScrollReveal().reveal('form',{
+    duration:2000,
     viewFactor: 0.2, 
   });
-  
 });

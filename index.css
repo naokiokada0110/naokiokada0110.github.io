@@ -2,7 +2,7 @@ body {
   background-color: #EEEEEE;
 }
 /* 共通 */
-h1,h2,dt,dd,.textbox,.text,.contact_text,button,.main_photo {
+h1,h2,dt,dd,.textbox,.text,button,.main_photo,form,input,textarea {
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
 }
 
@@ -127,15 +127,54 @@ button {
 }
 
 /* お問い合わせフォーム */
+form {
+  text-align: center;
+}
 
+.indispensable {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  margin-left: 15px;
+}
 
-/* .contact_text {
+.input_filed {
+  margin: 5px 0;
+}
+
+.contact_text {
   width: 450px;
   margin: 10px auto;
   text-align: center;
   text-decoration: underline;
   text-decoration-color: grey;
-} */
+}
+
+input{
+  width: 200px;
+  height: 15px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+.contact_form {
+  margin: 0 200px 0 200px;
+  background-color: silver;
+}
+
+.form_name,.form_mail,.form_address,.form_tel,.form_contact {
+  text-decoration: underline;
+  text-decoration-color: gray;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.submit_button {
+  margin: 5px 0 0 0;
+  padding: 10px;
+}
 
 /* フッター関連 */
 footer {
@@ -146,4 +185,22 @@ footer {
 .sns {
   margin: auto;
   padding: 5px;
+}
+
+/* done.html.css */
+
+.done {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.transition {
+  text-align: center;
+}
+
+a:hover {
+  color: blueviolet;
+  font-size: 1.5em;
+  font-weight: bold;
 }
