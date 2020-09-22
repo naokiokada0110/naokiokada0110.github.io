@@ -136,6 +136,7 @@ form {
   color: white;
   font-size: 12px;
   margin-left: 15px;
+  border-radius: 5px;
 }
 
 .input_filed {
